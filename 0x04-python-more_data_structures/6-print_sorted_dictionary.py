@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-str1 = "Holberton"
-str2 = "School"
-str1 = str1 + " " + str2
-print("Welcome to {}!".format(str1))
+def print_sorted_dictionary(a_dictionary):
+    list_order = list(a_dictionary.keys())
+    list_order.sort()
+    for i in list_order:
+        print("{}: {}".format(i, a_dictionary.get(i))) 
