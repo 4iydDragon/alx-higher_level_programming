@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def print_sorted_dictionary(a_dictionary):
-    for key, value in sorted(a_dictionary.items()):
-        print("{}: {}".format(key, value))
-        
+str1 = "Holberton"
+str2 = "School"
+str1 = str1 + " " + str2
+print("Welcome to {}!".format(str1))
